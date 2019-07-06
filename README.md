@@ -1,5 +1,16 @@
 # 命令行练习：常用的Linux命令
 
+请在如下文件中完成Linux命令挑战：
+
+- [`ls`命令练习 practise-ls/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-ls/solution.sh)
+- [`mv`命令练习 practise-mv/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-mv/solution.sh)
+- [`mv`命令练习 practise-rename/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-rename/solution.sh)
+- [`rm`命令练习 practise-remove/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-remove/solution.sh)
+- [`rm`命令练习 practise-remove-all/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-remove-all/solution.sh)
+- [`cp`命令练习 practise-cp/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-cp/solution.sh)
+- [`cp`命令练习 practise-cp-all/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-cp-all/solution.sh)
+- [`mkdir`命令练习 practise-mkdir/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-mkdir/solution.sh)
+- [重定向练习 practise-append/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-append/solution.sh)
 
 在提交Pull Request之前，你应当在本地确保所有代码已经编译通过，并且通过了测试(`mvn clean test`)
 
