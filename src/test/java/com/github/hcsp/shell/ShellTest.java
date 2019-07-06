@@ -62,7 +62,7 @@ public class ShellTest {
     public void testCpAll() {
         runIn("practise-cp-all", "sh", "solution.sh").assertZeroExitCode();
 
-        assertDirectoryHas("practise-cp-all/src");
+        assertDirectoryHas("practise-cp-all/src", "main", "test");
         assertDirectoryHas("practise-cp-all/dest", "main", "test");
     }
 
