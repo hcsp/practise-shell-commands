@@ -1,0 +1,9 @@
+practise-ls/solution.sh
+practise-mv/solution.sh
+practise-rename/solution.sh
+practise-remove/solution.sh
+practise-remove-all/solution.sh
+practise-cp/solution.sh
+practise-cp-all/solution.sh
+practise-mkdir/solution.sh
+practise-append/solution.sh
