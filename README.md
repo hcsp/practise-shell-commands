@@ -12,6 +12,8 @@
 - [`mkdir`命令练习 practise-mkdir/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-mkdir/solution.sh)
 - [重定向练习 practise-append/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-append/solution.sh)
 
+# 请切记，只提交对`solution.sh`文件的修改，不要提交其他文件！！！！
+
 在提交Pull Request之前，你应当在本地确保所有代码已经编译通过，并且通过了测试(`mvn clean test`)
 
 -----
