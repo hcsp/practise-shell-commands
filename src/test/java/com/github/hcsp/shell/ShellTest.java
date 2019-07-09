@@ -97,6 +97,6 @@ public class ShellTest {
     }
 
     private File getTestDir(String subDir) {
-        return Paths.get(System.getProperty("user.dir")).resolve(subDir).toFile();
+        return Paths.get(System.getProperty("basedir", System.getProperty("user.dir"))).resolve(subDir).toFile();
     }
 }
