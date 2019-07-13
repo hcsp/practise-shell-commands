@@ -12,11 +12,12 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class ShellTest {
-    //@Test
+    @Test
     public void testLs() {
         String output = runIn("practise-ls", "sh", "solution.sh").assertZeroExitCode().getOutput();
         Assertions.assertTrue(output.contains("file.txt"));
         Assertions.assertTrue(output.contains(".hidden"));
+        Assertions.assertTrue(output.contains("61B"));
     }
 
     @Test
