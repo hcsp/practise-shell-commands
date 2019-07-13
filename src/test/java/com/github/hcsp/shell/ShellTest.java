@@ -17,7 +17,6 @@ public class ShellTest {
         String output = runIn("practise-ls", "sh", "solution.sh").assertZeroExitCode().getOutput();
         Assertions.assertTrue(output.contains("file.txt"));
         Assertions.assertTrue(output.contains(".hidden"));
-        Assertions.assertTrue(output.contains("61B"));
     }
 
     @Test
