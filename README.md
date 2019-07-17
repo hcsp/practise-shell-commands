@@ -13,11 +13,6 @@
 - [重定向练习 practise-append/solution.sh](https://github.com/hcsp/practise-shell-commands/blob/master/practise-append/solution.sh)
 
 # 请切记，只提交对`solution.sh`文件的修改，不要提交其他文件！！！！
-
-运行`mvn clean test`会对目录中的文件进行一些修改，请不要提交它们。欲丢弃这些修改，可执行：
-
-```
-git add '*solution.sh' && git commit -m 'Temp' && git add . && git reset --hard && git reset HEAD~
 ```
 
 # 请注意，如果你使用的是Windows，请不要在IDEA或者cmd中运行`mvn clean test`，而是在Git bash中运行！
