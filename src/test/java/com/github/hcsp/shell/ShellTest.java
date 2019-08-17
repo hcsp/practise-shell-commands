@@ -14,14 +14,15 @@ import org.junit.jupiter.api.Test;
 public class ShellTest {
     @Test
     public void testLs() {
-        String output = runIn("practise-ls", "sh", "solution.sh").assertZeroExitCode().getOutput();
+        String output =
+                runIn("practise-ls", "bash", "solution.sh").assertZeroExitCode().getOutput();
         Assertions.assertTrue(output.contains("file.txt"));
         Assertions.assertTrue(output.contains(".hidden"));
     }
 
     @Test
     public void testMv() {
-        runIn("practise-mv", "sh", "solution.sh").assertZeroExitCode();
+        runIn("practise-mv", "bash", "solution.sh").assertZeroExitCode();
 
         assertDirectoryHas("practise-mv", "src", "D.txt");
         assertDirectoryHas("practise-mv/src/main", "A.java", "B.java", "C.java");
@@ -29,7 +30,7 @@ public class ShellTest {
 
     @Test
     public void testRename() {
-        runIn("practise-rename", "sh", "solution.sh").assertZeroExitCode();
+        runIn("practise-rename", "bash", "solution.sh").assertZeroExitCode();
 
         assertDirectoryHas("practise-rename", "src");
         assertDirectoryHas("practise-rename/src", "test");
@@ -37,21 +38,21 @@ public class ShellTest {
 
     @Test
     public void testRemove() {
-        runIn("practise-remove", "sh", "solution.sh").assertZeroExitCode();
+        runIn("practise-remove", "bash", "solution.sh").assertZeroExitCode();
 
         assertDirectoryHas("practise-remove", "other.txt");
     }
 
     @Test
     public void testRemoveAll() {
-        runIn("practise-remove-all", "sh", "solution.sh").assertZeroExitCode();
+        runIn("practise-remove-all", "bash", "solution.sh").assertZeroExitCode();
 
         assertDirectoryHas("practise-remove-all");
     }
 
     @Test
     public void testCp() {
-        runIn("practise-cp", "sh", "solution.sh").assertZeroExitCode();
+        runIn("practise-cp", "bash", "solution.sh").assertZeroExitCode();
 
         assertDirectoryHas("practise-cp/src", "A.java", "B.java", "C.txt");
         assertDirectoryHas("practise-cp/dest", "A.java", "B.java");
@@ -59,7 +60,7 @@ public class ShellTest {
 
     @Test
     public void testCpAll() {
-        runIn("practise-cp-all", "sh", "solution.sh").assertZeroExitCode();
+        runIn("practise-cp-all", "bash", "solution.sh").assertZeroExitCode();
 
         assertDirectoryHas("practise-cp-all/src", "main", "test");
         assertDirectoryHas("practise-cp-all/dest", "main", "test");
@@ -67,7 +68,7 @@ public class ShellTest {
 
     @Test
     public void testAppend() throws IOException {
-        runIn("practise-append", "sh", "solution.sh").assertZeroExitCode();
+        runIn("practise-append", "bash", "solution.sh").assertZeroExitCode();
 
         String fileContent =
                 new String(
