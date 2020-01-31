@@ -1,13 +1,2 @@
 #!/usr/bin/env sh
 # 请在这里编写一条命令，在当前目录下创建src/main/java/com/github/hcsp目录
-mkdir src
-cd src
-mkdir main
-cd main
-mkdir java
-cd java
-mkdir com
-cd com
-mkdir github
-cd github
-mkdir hcsp
