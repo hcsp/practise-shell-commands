@@ -14,16 +14,16 @@
 
 # 请切记，只提交对`solution.sh`文件的修改，不要提交其他文件！！！！
 
-运行`mvn clean test`会对目录中的文件进行一些修改，请不要提交它们。欲丢弃这些修改，可执行：
+运行`mvn clean verify`会对目录中的文件进行一些修改，请不要提交它们。欲丢弃这些修改，可执行：
 
 ```
 git add '*solution.sh' && git commit -m 'Temp' && git add . && git reset --hard && git reset HEAD~
 ```
 
-# 请注意，如果你使用的是Windows，请不要在IDEA或者cmd中运行`mvn clean test`，而是在Git bash中运行！
+# 请注意，如果你使用的是Windows，请不要在IDEA或者cmd中运行`mvn clean verify`，而是在Git bash中运行！
 
 
-在提交Pull Request之前，你应当在本地确保所有代码已经编译通过，并且通过了测试(`mvn clean test`)
+在提交Pull Request之前，你应当在本地确保所有代码已经编译通过，并且通过了测试(`mvn clean verify`)
 
 -----
 注意！我们只允许你修改以下文件，对其他文件的修改会被拒绝：
