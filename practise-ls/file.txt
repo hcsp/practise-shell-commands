@@ -1,1 +1,9 @@
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+总用量 16K
+drwxrwxr-x  2 orangeh orangeh 4.0K 9月  30 00:13 .
+drwxrwxr-x 17 orangeh orangeh 4.0K 9月  29 23:54 ..
+-rw-rw-r--  1 orangeh orangeh   63 9月  30 00:13 file.txt
+-rw-rw-r--  1 orangeh orangeh    0 9月  29 19:48 .hidden
+-rwxrwxr-x  1 orangeh orangeh  171 9月  30 00:13 solution.sh
