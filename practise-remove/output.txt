@@ -1,2 +1,0 @@
-date + %Y-%m-%d %H:%M:%S" >> output.txt
-echo date + "%Y-%m-%d %H:%M:%S'
